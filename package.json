@@ -2,6 +2,7 @@
   "name": "FileServer",
   "version": "0.0.1",
   "dependencies": {
-    "express": "4.x",
-    }
+    "ejs": "^2.4.1",
+    "express": "4.x"
+  }
 }
