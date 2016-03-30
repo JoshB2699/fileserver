@@ -1,15 +1,11 @@
 <html lang="en">
     <head>
-        <title> FileServer - Image </title>
-        <link rel="stylesheet" href="../public/image_page.css">
+        <title> FileServer - <%- image_url %> </title>
+        <link rel="stylesheet" href="../public/main_styles.css">
     </head>
     <body>
-        <div id="toolbar">
-            <p>
-            <a href="/">Home</a>
-            <a href="../image_selector">Images</a>
-            </p>
-        </div>   
-        <img src="/public/images/<%- image_url %>" alt="" style="max-width:1920px;height:auto;">
+      <div id="Toolbar"></div>
+      <img src="/public/images/<%- image_url %>" alt="" style="max-width:1920px;height:auto;">
+      <script src="/public/browser.bundle.js"></script>
     </body>
 </html>
