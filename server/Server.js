@@ -11,7 +11,13 @@ app.set('views', './server/views')
 var indexView = function(req,res) {
     res.render('index.ejs');
     }
-    
+
+var selectorView = function(req,res) {
+    res.render('image_selector.ejs')
+}        
+
+app.get('/image_selector', selectorView);
+        
 app.get('/image', function(req, res) {
      res.render('image', {image_url: req.query.image});
 });
