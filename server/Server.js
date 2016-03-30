@@ -1,9 +1,10 @@
-var express = require('express')
+var express = require('express');
 var path = require('path');
+var React = require('react');
 var port = 8080
 
-    app = express();
-    
+app = express();  
+ 
 app.use(express.static(__dirname+'/public'));
 app.set('view engine', 'ejs')
 app.set('views', './server/views')
